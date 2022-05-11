@@ -1,0 +1,33 @@
+
+
+.container {
+    background-color: darkgray;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px lightgray;
+}
+
+.container:hover {
+    box-shadow: 10px 10px dodgerblue;
+}
+
+
+.title {
+    font-size: small;
+    color: white;
+}
+
+.description {
+    font-size: medium;
+    color: lightgray;
+}
+
+.author {
+    font-size: large;
+    color: white;
+}
